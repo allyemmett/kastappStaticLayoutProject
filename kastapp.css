@@ -114,7 +114,6 @@ nav ul {
     padding-top: 15px;
     width: 40vw;
     padding-bottom: 30px;
-    text-align: center;
     font-size: 2.5vh;
     line-height: 3.25vh;
 }
@@ -179,36 +178,39 @@ nav ul {
 }
 
 .popcornText {
-    width: 15%;
+    width: 30%;
     height: auto;
     line-height: 30px;
     overflow-wrap: break-word;
-    position: relative;
-    top: 46em;
-    left: 20em;
+    padding-left: 0;
     text-align: center;
+    /* position: relative;
+    top: 46em;
+    left: 20em; */
 }
 
 .planeText {
-    width: 15%;
+    width: 30%;
     height: auto;
     line-height: 30px;
     overflow-wrap: break-word;
-    position: relative;
-    top: 42em;
-    left: 38em;
     text-align: center;
+    /* position: relative;
+    top: 42em;
+    left: 38em; */
+
 }
 
 .heartText {
-    width: 15%;
+    width: 30%;
     height: auto;
     line-height: 30px;
     overflow-wrap: break-word;
-    position: relative;
-    top: 38em;
-    left: 58em;
     text-align: center;
+    /* position: relative;
+    top: 38em;
+    left: 58em; */
+
 }
 
 .membershipText {
@@ -219,7 +221,7 @@ nav ul {
     line-height: 40px;
     overflow-wrap: break-word;
     position: relative;
-    top: 34em;
+    top: 50em;
     left: 23em;
     text-align: center;
 
@@ -229,7 +231,7 @@ nav ul {
     color: rgb(255, 136, 0);
     font-size: 15px;
     position: relative;
-    top: 45em;
+    top: 55em;
     left: 46em;
 
 
@@ -241,7 +243,7 @@ nav ul {
     color: white;
     background-color: rgb(255, 136, 0);
     position: relative;
-    top: 39em;
+    top: 60em;
     left: 33em;
     margin: auto;
     width: 0;
