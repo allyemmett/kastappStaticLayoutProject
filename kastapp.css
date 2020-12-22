@@ -152,15 +152,16 @@ nav ul {
 }
  
 .flex-container {
+    text-align: center;
     display: flex;
     list-style-type: none;
     position: relative;
     top: 46em;
     right: 25em;
-    margin: auto;
+    margin: 4px;
     justify-content: space-between;
-
 }
+
 
 .popcorn {
     width: 100px;
