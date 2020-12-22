@@ -1,6 +1,5 @@
 
 html {
-    font-size: 10 px;
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -10,33 +9,29 @@ body {
     background-color: white;
     background-size: 1500px, 95px;
     background-repeat: no-repeat;
-    background-position-y: -10px;
+    background-position-y: -100px;
     height: 100%;
 
 }
 
-nav {
-    font-family: Arial, Helvetica, sans-serif;
-    position: sticky;
-    z-index: 99;
-    height: 50px; 
-    margin-bottom: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    flex-shrink: 3;
 
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 99;
+    height: 100px; 
+    float: left;
 }
+
 
 header img {
     margin: 0;
-    width: 23%;
-    padding: 15px;
+    width: 25%;
     height: auto;
+    text-align: left;
 } 
 
 header img:hover {
-    width: 25%;
+    width: 28%;
     height: auto;
 }
 
@@ -49,88 +44,97 @@ nav ul {
     position: fixed;
 }
 
-nav li {
-    text-decoration-color: white;
-    font-weight: 600;
-    font-size: 1rem;
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+.nav-item {
+    font-weight: 550;
+    font-size: 2vh;
     display: inline;
-    padding: 30px 26px;
+    padding: 15px;
 
 }
 
-a:link {
-    text-decoration: none;
+.premiumUnderline {
+    padding: 50px 26px;
     color: white;
-  }
-
-  a:visited {
-    color: white;
+    font-weight: 550;
   }
 
 .premiumUnderline:hover {
+    color: white;
      text-decoration: underline;
 }
 
 .custom-button {
-    border: 2px solid;
+    color: white;
+    border: 1px solid;
     border-radius: 10% 10% 10% 10%;
     white-space: nowrap;
-    padding: 5px 8px;
+    padding: 0px;
     margin: auto;
-    font-size: 13px;
+    font-size: 1.5vh;
+    padding: 5px 5px;
 }
 
 .custom-button:hover {
-    display: inline-block;
-    size: 20px;
+    color: white;
+    padding: 6px;
+    text-decoration: none;
 }
 
 .computerPic {
-    position: relative;
-    top: 3.4em;
-    left: 5.5em;
+    position: center;
     margin: auto;
-    width: 64.5%;
+    padding-top: 75px;
+    width: 40vw;
     height: auto;
 }
 
 .watchParty {
+    position: center;
+    text-align: center;
+    padding-top: 25px;
     font-family:'Roboto', sans-serif;
-    font-size: 32px;
     letter-spacing: normal;
     color: white;
-    position: relative;
-    top: 3.3em;
-    left: 15.1em;
-
 }
-
+.watchTitle {
+    font-size: 5.5vh;
+    font-weight: 600;
+}
 .moreText {
-    font-size: 20px;
-    line-height: 28px;
-    overflow-wrap: break-word;
-    white-space: pre-wrap;
-    width: 38%;
+    position: center;
     text-align: center;
-
+    margin: auto;
+    padding-top: 15px;
+    width: 40vw;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 2.5vh;
+    line-height: 3.25vh;
 }
 
 .openKastButton {
     color: white;
     background-color: rgb(255, 136, 0);
-    position: relative;
-    top: 7em;
-    left: 36.5em;
     margin: auto;
-    width: 0;
     border-radius: 3% 3% 3% 3%;
-    white-space: nowrap;
     font-size: 18px;
     font-weight: bolder;
     font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 50px;
-    padding: 13px 53px;
-    text-align: center;
+    padding: 13px 60px;
+}
+
+.openKastButton:hover {
+    color: white;
+    text-decoration: none;
+    padding: 14px 61px;
 }
 
 .cyberSale {
@@ -138,8 +142,8 @@ a:link {
     overflow-wrap: break-word;
     width: 50%;
     text-align: center;
-    font-family: sans-serif;
-    font-weight: 400;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
     font-size: 30px;
     color: rgb(78, 78, 78);
     position: relative;
@@ -175,20 +179,20 @@ a:link {
 }
 
 .popcornText {
-    width: 64%;
+    width: 15%;
     height: auto;
-    line-height: 25px;
+    line-height: 30px;
     overflow-wrap: break-word;
     position: relative;
     top: 46em;
-    right: 26em;
+    left: 20em;
     text-align: center;
 }
 
 .planeText {
     width: 15%;
     height: auto;
-    line-height: 25px;
+    line-height: 30px;
     overflow-wrap: break-word;
     position: relative;
     top: 42em;
@@ -199,11 +203,11 @@ a:link {
 .heartText {
     width: 15%;
     height: auto;
-    line-height: 20px;
+    line-height: 30px;
     overflow-wrap: break-word;
     position: relative;
     top: 38em;
-    left: 57em;
+    left: 58em;
     text-align: center;
 }
 
@@ -238,15 +242,21 @@ a:link {
     background-color: rgb(255, 136, 0);
     position: relative;
     top: 39em;
-    left: 32em;
+    left: 33em;
     margin: auto;
     width: 0;
     border-radius: 3% 3% 3% 3%;
     white-space: nowrap;
     font-size: 18px;
     font-weight: bolder;
-    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 50px;
-    padding: 13px 53px;
+    padding: 10px 20px;
     text-align: center;
+}
+
+.getYourMembership:hover {
+    color: white;
+    padding: 11px 21px;
+    text-decoration: none;
 }
