@@ -152,8 +152,6 @@ nav ul {
 }
  
 .container1  {
-    width: 1000px;
-    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -168,8 +166,6 @@ nav ul {
 }
 
 .container2 {
-    width: 500px;
-    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
