@@ -135,7 +135,9 @@ nav ul {
     text-decoration: none;
     padding: 14px 61px;
 }
-
+h1 {
+    2.8rem;
+}
 .cyberSale {
     border: 0;
     overflow-wrap: break-word;
@@ -152,6 +154,7 @@ nav ul {
 }
  
 .container1  {
+    width: 750px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -159,8 +162,7 @@ nav ul {
     align-content: stretch;
     list-style-type: none;
     position: relative;
-    top: 46em;
-    right: 23em;
+    top: 40em;
     margin: auto;
     justify-content: space-between;
 }
