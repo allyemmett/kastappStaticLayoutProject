@@ -151,7 +151,7 @@ nav ul {
     float: left;
 }
  
-.flex-container {
+#pictureContainer  {
     text-align: center;
     display: flex;
     list-style-type: none;
@@ -162,6 +162,16 @@ nav ul {
     justify-content: space-between;
 }
 
+#textContainer {
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    top: 50em;
+    right: 20em;
+    margin: 4px;
+    justify-content: space-between;
+}
 
 .popcorn {
     width: 100px;
