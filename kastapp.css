@@ -150,6 +150,10 @@ nav ul {
     left: 8em;
     float: left;
 }
+
+.flexContainer {
+    width: 200px;
+}
  
 #pictureContainer  {
     text-align: center;
