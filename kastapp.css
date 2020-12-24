@@ -182,16 +182,19 @@ h1 {
 }
 
 .popcorn {
+    flex-grow: 1;
     width: 100px;
     height: 100px;
 }
 
 .paperPlane {
+    flex-grow: 1;
     width: 100px;
     height: 100px;
 }
 
 .heart {
+    flex-grow: 1;
     width: 100px;
     height: 100px;
 }
