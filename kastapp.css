@@ -151,8 +151,9 @@ nav ul {
     float: left;
 }
 
-.flexContainer {
+.flexContainer div{
     width: 500px;
+    height: auto;
 }
  
 #pictureContainer  {
