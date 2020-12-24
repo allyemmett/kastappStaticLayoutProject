@@ -166,7 +166,7 @@ nav ul {
 }
 
 .container2 {
-    width: 750px;
+    width: 900px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -197,7 +197,7 @@ nav ul {
 }
 
 .popcornText {
-    width: 30%;
+    width: 25%;
     height: auto;
     line-height: 30px;
     overflow-wrap: break-word;
@@ -209,7 +209,7 @@ nav ul {
 }
 
 .planeText {
-    width: 30%;
+    width: 25%;
     height: auto;
     line-height: 30px;
     overflow-wrap: break-word;
