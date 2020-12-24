@@ -235,13 +235,13 @@ nav ul {
 .membershipText {
     font-size: 19px;
     font-family:"Roboto", sans-serif;
-    width: 40%;
+    width: 50%;
     height: auto;
     line-height: 40px;
     overflow-wrap: break-word;
     position: relative;
     top: 50em;
-    left: 18em;
+    left: 15em;
     text-align: center;
 
 }
@@ -262,7 +262,7 @@ nav ul {
     color: white;
     background-color: rgb(255, 136, 0);
     position: relative;
-    top: 60em;
+    top: 55em;
     left: 24em;
     margin: auto;
     width: 0;
