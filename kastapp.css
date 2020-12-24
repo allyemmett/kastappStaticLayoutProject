@@ -135,9 +135,7 @@ nav ul {
     text-decoration: none;
     padding: 14px 61px;
 }
-h1 {
-    2.8rem;
-}
+
 .cyberSale {
     border: 0;
     overflow-wrap: break-word;
@@ -176,7 +174,6 @@ h1 {
     list-style-type: none;
     position: relative;
     top: 50em;
-    right: 25em;
     margin: auto;
     justify-content: space-between;
 }
@@ -200,7 +197,7 @@ h1 {
 }
 
 .popcornText {
-    width: 15%;
+    width: 30%;
     height: auto;
     line-height: 30px;
     overflow-wrap: break-word;
@@ -212,7 +209,7 @@ h1 {
 }
 
 .planeText {
-    width: 15%;
+    width: 30%;
     height: auto;
     line-height: 30px;
     overflow-wrap: break-word;
@@ -224,7 +221,7 @@ h1 {
 }
 
 .heartText {
-    width: 15%;
+    width: 30%;
     height: auto;
     line-height: 30px;
     overflow-wrap: break-word;
