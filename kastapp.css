@@ -168,6 +168,7 @@ h1 {
 }
 
 .container2 {
+    width: 750px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -175,7 +176,6 @@ h1 {
     list-style-type: none;
     position: relative;
     top: 50em;
-    right: 23em;
     margin: auto;
     justify-content: space-between;
 }
