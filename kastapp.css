@@ -151,30 +151,32 @@ nav ul {
     float: left;
 }
 
-.flexContainer div{
-    width: 500px;
-    height: auto;
-}
  
-#pictureContainer  {
-    text-align: center;
+.container1  {
+    width: 500px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
     list-style-type: none;
     position: relative;
     top: 46em;
     right: 20em;
-    margin: 2px;
+    margin: auto;
     justify-content: space-between;
 }
 
-#textContainer {
-    text-align: center;
+.container2 {
+    width: 500px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
     list-style-type: none;
     position: relative;
-    top: 55em;
+    top: 50em;
     right: 20em;
-    margin: 2px;
+    margin: auto;
     justify-content: space-between;
 }
 
