@@ -139,15 +139,15 @@ nav ul {
 .cyberSale {
     border: 0;
     overflow-wrap: break-word;
-    width: 60%;
+    width: 65%;
     text-align: center;
     font-family:'Roboto', sans-serif;
     font-weight: 700;
     font-size: 50px;
     color: rgb(78, 78, 78);
     position: relative;
-    top: 19em;
-    left: 8em;
+    top: 12em;
+    left: 5em;
     float: left;
 }
  
