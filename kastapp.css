@@ -146,8 +146,8 @@ nav ul {
     font-size: 50px;
     color: rgb(78, 78, 78);
     position: relative;
-    top: 12em;
-    left: 5em;
+    top: 11em;
+    left: 4.5em;
     float: left;
 }
  
@@ -160,7 +160,7 @@ nav ul {
     align-content: stretch;
     list-style-type: none;
     position: relative;
-    top: 40em;
+    top: 36em;
     margin: auto;
     justify-content: space-between;
 }
@@ -173,7 +173,7 @@ nav ul {
     align-content: stretch;
     list-style-type: none;
     position: relative;
-    top: 45em;
+    top: 37em;
     margin: auto;
     justify-content: space-between;
 }
@@ -237,10 +237,10 @@ nav ul {
     font-family:"Roboto", sans-serif;
     width: 50%;
     height: auto;
-    line-height: 40px;
+    line-height: 35px;
     overflow-wrap: break-word;
     position: relative;
-    top: 50em;
+    top: 36em;
     left: 15em;
     text-align: center;
 
@@ -250,8 +250,8 @@ nav ul {
     color: rgb(255, 136, 0);
     font-size: 15px;
     position: relative;
-    top: 65em;
-    left: 35em;
+    top: 48em;
+    left: 36em;
 
 }
 
@@ -263,7 +263,7 @@ nav ul {
     color: white;
     background-color: rgb(255, 136, 0);
     position: relative;
-    top: 55em;
+    top: 50em;
     left: 24em;
     margin: auto;
     width: 0;
